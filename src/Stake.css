@@ -1,0 +1,153 @@
+.krypto-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 20px; */
+  background-color: black;
+  padding: 20px;
+}
+
+.left-section,
+.right-section {
+  margin: 0;
+}
+.left-section h2 {
+  font-size: x-small;
+  font-weight: 100;
+}
+
+.right-section h2 {
+  font-size: x-small;
+  align-items: right;
+  text-align: left;
+  font-weight: 100;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: #0056b3;
+  width: 150px;
+  color: black;
+  outline: 2px solid black;
+  border-radius: 5px;
+}
+
+.right-section-2 h2 {
+  font-size: x-small;
+  align-items: right;
+  text-align: left;
+  font-weight: 100;
+  padding-right: 0px;
+  padding-left: 0px;
+  color: #fff;
+  width: 100%;
+}
+
+.right-section-3 h2 {
+  font-size: x-small;
+  align-items: right;
+  text-align: right;
+  font-weight: 700;
+  padding-right: 0px;
+  padding-left: 0px;
+  color: #fff;
+  width: 100px;
+}
+
+.left-section {
+  padding-left: 0px;
+  flex: 0.99;
+  color: #fff;
+}
+
+.left-section p {
+  font-size: small;
+  font-weight: 700;
+  color: #fff;
+}
+
+.amount-input {
+  padding: 10px;
+  margin-right: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  width: 700px;
+  color: black;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.form-container-3 {
+  margin-top: 20px;
+}
+
+.display-flex-col {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  width: 100%;
+}
+
+.display-flex-1 {
+  /* border: 2px solid black; */
+  padding: 0;
+  display: flex;
+  margin: 0;
+  width: 100%;
+}
+
+.display-flex {
+  /* border: 2px solid black; */
+  padding: 0;
+  display: flex;
+  margin: 0;
+  width: 100%;
+}
+
+.display-flex-4 {
+  /* border: 2px solid black; */
+  padding: 0;
+  display: flex;
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.amount-section {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.display-flex-2 {
+  /* border: 2px solid black; */
+  padding: 0;
+  display: flex;
+  border-top: 1px solid black;
+  margin: 0;
+  width: 100%;
+}
+
+.justify-around {
+  margin: 5px;
+  margin-bottom: 5px;
+}
+
+.amount-input-3 {
+  margin-bottom: 10px;
+  width: 96.5%;
+  margin-right: 20px;
+}
+
+button {
+  width: 100%;
+}
